@@ -1,0 +1,39 @@
+# Site settings
+name: Rahma Izzatun Nisa
+title: Rahma Izzatun Nisa | Accounting Graduate
+description: A highly motivated Accounting graduate with practical experience in external audit and consulting firm.
+url: https://rahmaizzatun.github.io/
+baseurl: ''
+email: rahmaiztn01@gmail.com
+cover: https://rahmaizzatun.github.io/img/og.png
+logo: https://rahmaizzatun.github.io/img/emojis/technologist.png
+resume: https://rahmaizzatun.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:rahmaiztn01@gmail.com
+  - title: github
+    url: https://github.com/rahmaizzatun
+  - title: linkedin
+    url: https://www.linkedin.com/in/rahma-izzatun-nisa-060934210/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
