@@ -1,0 +1,17 @@
+<section class="section skills">
+    <div class="section__title">Achievements</div>
+    <div class="section__content">
+      <div class="skillz">
+        <div class="skillz__category">
+          <div class="skillz__category__label"></div>
+          
+          <ul>
+            {% for achievement in site.data.skills.achievements %}
+            <li class="skillz__category__item">{{achievement.item}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
